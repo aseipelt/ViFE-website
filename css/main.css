@@ -1,0 +1,36 @@
+.vife_icons > li {
+
+}
+
+.vife_icon {
+    text-align: center;
+    font-size: 2em;  
+    height: 90px; 
+    padding: 10px;     
+}
+
+.vife_iconText {
+    display: block;
+    margin: 20px 20px 10px;
+    font-size: 16px;
+}
+
+a.vife_more {
+    display: block;
+    color: #666666;
+}
+
+.vife_teamMember {
+    background-image:url(http://www.jellythemes.com/themes/orion_wp/wp-content/themes/orion1.3/img/team/team_02.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 220px;
+}
+
+p.lead {
+    text-align: justify;
+}
+
+.vife_contact_icon  {
+    margin-right: 10px;
+}
