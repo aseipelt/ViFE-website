@@ -18,6 +18,11 @@
 a.vife_more {
     display: block;
     color: #666666;
+    margin-top: 30px; 
+    /*background-image: url('img/beethoven.png');*/
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 30px;
 }
 
 .vife_teamMember {
@@ -26,6 +31,16 @@ a.vife_more {
     background-repeat: no-repeat;
     height: 220px;
 }
+
+/*
+.vife_projects {
+    margin-top: 30px; 
+    background-image: url('img/beethoven.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 105px
+}
+*/
 
 p.lead {
     text-align: justify;

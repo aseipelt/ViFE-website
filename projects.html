@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-        <title>Bootstrap 101 Template</title>
+        <title>Virtueller Forschungsverbund Edirom</title>
         
         <!-- Bootstrap -->
         <link href="css/bootstrap.min.css" rel="stylesheet" />
@@ -24,7 +24,7 @@
       <div class="container">
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
+              <li class="active"><a href="index.html">Home</a></li>
             <li><a href="#">Kontakt</a></li>
             <li><a href="#">DE | EN</a></li>
           </ul>
@@ -38,7 +38,7 @@
         <h1>ViFE – Virtueller Forschungsverbund Edirom</h1>
       </div>
     
-        <ul class="nav nav-pills vife_icons">
+     <ul class="nav nav-pills vife_icons">
       <li role="presentation">
       <a class="navbar-brand vife_icon" href="index.html">
         <span class="glyphicon glyphicon-comment" aria-hidden="true"></span>
@@ -51,65 +51,90 @@
         <span class="vife_iconText">Team</span>
       </a>
       </li>
-            <li role="presentation" class="active"><a class="navbar-brand vife_icon" href="#">
+      <li role="presentation" class="active"><a class="navbar-brand vife_icon" href="#">
         <span class="glyphicon glyphicon-th" aria-hidden="true"></span>
         <span class="vife_iconText">Projekte</span>
-      </a></li>
-      <li role="presentation"><a class="navbar-brand vife_icon" href="#">
-        <span class="glyphicon glyphicon-book" aria-hidden="true"></span>
-        <span class="vife_iconText">Publikationen</span>
-      </a></li>
-      <li role="presentation"><a class="navbar-brand vife_icon" href="#">
-        <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
-        <span class="vife_iconText">Termine</span>
-      </a></li>
-      <li role="presentation"><a class="navbar-brand vife_icon" href="#">
-        <span class="glyphicon glyphicon-wrench" aria-hidden="true"></span>
-        <span class="vife_iconText">Werkzeuge</span>
-      </a></li>
-            <li role="presentation"><a class="navbar-brand vife_icon" href="#">
+      </a>
+      </li>
+      <li role="presentation"><a class="navbar-brand vife_icon" href="publikationen.html">
+                <span class="glyphicon glyphicon-book" aria-hidden="true"></span>
+                <span class="vife_iconText">Publikationen</span>
+            </a>
+       </li>
+       <li role="presentation"><a class="navbar-brand vife_icon" href="termine.html">
+                <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
+                <span class="vife_iconText">Termine</span>
+            </a>
+       </li>
+       <li role="presentation"><a class="navbar-brand vife_icon" href="werkzeuge.html">
+                <span class="glyphicon glyphicon-wrench" aria-hidden="true"></span>
+                <span class="vife_iconText">Werkzeuge</span>
+            </a>
+       </li>
+       <li role="presentation"><a class="navbar-brand vife_icon" href="concepts.html">
                 <span class="glyphicon glyphicon-blackboard" aria-hidden="true"></span>
                 <span class="vife_iconText">Konzepte &amp; Workflows</span>
-            </a></li>
-
+            </a>
+       </li>
     </ul>
-    
-    <br/>
-        <br/><br/><br/>
-    
-    
-        <div class="row">
+        
+    <div class="row" style="margin-top: 80px;">
             <div class="col-md-4">
                 <div class="well">
                     <h3>Beethovens Werkstatt</h3>
-                    <p> Laufzeit: März 2014 – Februar 2030<br/>
-                    Förderer: Akademie der Wissenschaften und der Literatur Mainz<br/></p>
+                    <p> Laufzeit: 2010 – 2030<br/>
+                    Förderer: Akademie der Wissenschaften und der Literatur Mainz (AdWL)<br/></p>
                     <a class="vife_more" href="#">http://beethovens-werkstatt.de</a>
-                    <div style="margin-top: 30px; background-image: url('img/beethoven.png');
-                        background-position: center center;
-                        background-repeat: no-repeat;
-                        height: 105px;"></div>
+                    <img src="img/beethoven.png"/>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="well">
+                    <h3>DARIAH</h3>
+                    <p> Laufzeit: 2011 – 2016<br/>
+                       Förderer: Bundesministerium für Bildung und Forschung (BMBF)<br/>
+                    </p>
+                    <a class="vife_more" href="#">https://de.dariah.eu</a>
+                    <img src="img/dariah.png"/>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="well">
+                    <h3>Detmolder Hoftheater</h3>
+                    <p> Laufzeit: 2014 – 2016<br/>
+                        Förderer: Deutsche Forschungsgemeinschaft (DFG)<br/></p>
+                    <a class="vife_more" href="#">http://hoftheater-detmold.de</a>
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-4">
+                <div class="well">
+                    <h3>Digital Music Notation Data Model and Prototype Delivery System</h3>
+                    <p> Laufzeit: 2010 – 2013<br/>
+                        Förderer: Deutsche Forschungsgemeinschaft/National Endowment for the Humanities in the United States (DFG/NEH)<br/></p>
+                    <a class="vife_more" href="#"> </a>
+                    
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="well">
                     <h3>Edirom</h3>
-                    <p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-                        eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-                        voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-                        clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit </p>
-                    <a class="vife_more" href="#">mehr…</a>
+                    <p> Laufzeit: 2006 – 2012<br/>
+                        Förderer: Deutsche Forschungsgemeinschaft (DFG)<br/></p>
+                    <a class="vife_more" href="#">http://www.edirom.de</a>
+                    <img src="img/edirom.png"/>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="well">
-                    <h3>DARIAH</h3>
-                    <p> Amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-                        nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-                        sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
-                        rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
-                        ipsum dolor sit amet. </p>
-                    <a class="vife_more" href="#">mehr…</a>
+                    <h3>Freischütz Digital</h3>
+                    <p> Laufzeit: 2012 – 2015<br/>
+                        Förderer: Deutsche Forschungsgemeinschaft (DFG)<br/></p>
+                    <a class="vife_more" href="#">http://www.freischuetz-digital.de</a>
+                    <img src="img/freidi.png"/>
                 </div>
             </div>
         </div>
@@ -117,67 +142,29 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="well">
-                    <h3>Beethoven</h3>
-                    <p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-                        eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-                        voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-                        clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit </p>
-                    <a class="vife_more" href="#">mehr…</a>
+                    <h3>TextGrid</h3>
+                    <p> 2006 – 2012<br/>
+                        Förderer: Bundesministerium für Bildung und Forschung (BMBF)<br/></p>
+                    <a class="vife_more" href="#">https://textgrid.de</a>
+                    <img src="img/textgrid.png"/>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="well">
-                    <h3>Virtueller Forschungsverbund Edirom</h3>
-                    <p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-                        eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-                        voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-                        clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit </p>
-                    <a class="vife_more" href="#">mehr…</a>
+                    <h3>Weber-Gesamtausgabe</h3>
+                    <p> 1993 – 2026<br/>
+                        Förderer: Bundesministerium für Bildung und Forschung (BMBF)<br/></p>
+                    <a class="vife_more" href="#">http://www.weber-gesamtausgabe.de</a>
+                    <img src="img/weber.png"/>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="well">
-                    <h3>DARIAH</h3>
-                    <p> Amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-                        nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-                        sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
-                        rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
-                        ipsum dolor sit amet. </p>
-                    <a class="vife_more" href="#">mehr…</a>
-                </div>
-            </div>
-        </div>
-        
-        <div class="row">
-            <div class="col-md-4">
-                <div class="well">
-                    <h3>Beethoven</h3>
-                    <p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-                        eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-                        voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-                        clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit </p>
-                    <a class="vife_more" href="#">mehr…</a>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="well">
-                    <h3>Virtueller Forschungsverbund Edirom</h3>
-                    <p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-                        eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-                        voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-                        clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit </p>
-                    <a class="vife_more" href="#">mehr…</a>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="well">
-                    <h3>DARIAH</h3>
-                    <p> Amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-                        nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-                        sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
-                        rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
-                        ipsum dolor sit amet. </p>
-                    <a class="vife_more" href="#">mehr…</a>
+                    <h3>ZenMEM</h3>
+                    <p> 2014 – 2017<br/>
+                        Förderer: Bundesministerium für Bildung und Forschung (BMBF)<br/></p>
+                    <a class="vife_more" href="#">http://www.zenmem.de</a>
+                    <img src="img/zenmem.png"/>
                 </div>
             </div>
         </div>
