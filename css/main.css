@@ -25,6 +25,24 @@ a.vife_more {
     height: 30px;
 }
 
+a.vife_werkzeuge {
+    display: block;
+    color: #666666;
+    margin-top: 10px; 
+    /*background-image: url('img/beethoven.png');*/
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 30px;
+}
+
+a.vife_werkzeuge2 {
+    display: block;
+    color: #666666;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 30px;
+}
+
 .vife_teamMember {
     background-image:url(http://www.jellythemes.com/themes/orion_wp/wp-content/themes/orion1.3/img/team/team_02.png);
     background-position: center;
