@@ -20,19 +20,11 @@
     </head>
   <body>
   
-  <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-              <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="#">Kontakt</a></li>
-            <li><a href="#">DE | EN</a></li>
-              <li><a href="http://ess.uni-paderborn.de/">Edirom-Summer-School</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </nav>
-
+    <div class="headerBar"></div>
+    <div class="essLink">
+      <a href="http://ess.uni-paderborn.de" target="_blank"><img src="img/ESS2016_logo-2_CS6-01.png" width="180"/></a>
+    </div>
+      
     <div class="container" style="margin-top: 50px;">
 
       <div class="starter-template">
@@ -72,16 +64,16 @@
                 <span class="vife_iconText">Werkzeuge</span>
             </a>
        </li>
-       <li role="presentation"><a class="navbar-brand vife_icon" href="concepts.html">
+       <!--<li role="presentation"><a class="navbar-brand vife_icon" href="concepts.html">
                 <span class="glyphicon glyphicon-blackboard" aria-hidden="true"></span>
                 <span class="vife_iconText">Konzepte &amp; Workflows</span>
             </a>
-       </li>
+       </li>-->
     </ul>
         
     <div class="row" style="margin-top: 80px;">
             <div class="col-md-4">
-                <div class="well">
+                <div class="well vife_project">
                     <h3>Beethovens Werkstatt</h3>
                     <p> Laufzeit: 2010 – 2030<br/>
                     Förderer: Akademie der Wissenschaften und der Literatur Mainz (AdWL)<br/></p>
@@ -90,7 +82,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="well">
+                <div class="well vife_project">
                     <h3>DARIAH</h3>
                     <p> Laufzeit: 2011 – 2016<br/>
                        Förderer: Bundesministerium für Bildung und Forschung (BMBF)<br/>
@@ -100,19 +92,19 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="well">
+                <div class="well vife_project">
                     <h3>Detmolder Hoftheater</h3>
                     <p> Laufzeit: 2014 – 2016<br/>
                         Förderer: Deutsche Forschungsgemeinschaft (DFG)<br/></p>
                     <a class="vife_more" href="http://hoftheater-detmold.de">http://hoftheater-detmold.de</a>
-                    
+                    <img src="img/hoftheater_text.png"/>
                 </div>
             </div>
         </div>
         
         <div class="row">
             <div class="col-md-4">
-                <div class="well">
+                <div class="well vife_project">
                     <h3>Digital Music Notation Data Model and Prototype Delivery System</h3>
                     <p> Laufzeit: 2010 – 2013<br/>
                         Förderer: Deutsche Forschungsgemeinschaft/National Endowment for the Humanities in the United States (DFG/NEH)<br/></p>
@@ -121,7 +113,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="well">
+                <div class="well vife_project">
                     <h3>Edirom</h3>
                     <p> Laufzeit: 2006 – 2012<br/>
                         Förderer: Deutsche Forschungsgemeinschaft (DFG)<br/></p>
@@ -130,7 +122,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="well">
+                <div class="well vife_project">
                     <h3>Freischütz Digital</h3>
                     <p> Laufzeit: 2012 – 2015<br/>
                         Förderer: Deutsche Forschungsgemeinschaft (DFG)<br/></p>
@@ -142,7 +134,7 @@
         
         <div class="row">
             <div class="col-md-4">
-                <div class="well">
+                <div class="well vife_project">
                     <h3>TextGrid</h3>
                     <p> 2006 – 2012<br/>
                         Förderer: Bundesministerium für Bildung und Forschung (BMBF)<br/></p>
@@ -151,7 +143,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="well">
+                <div class="well vife_project">
                     <h3>Weber-Gesamtausgabe</h3>
                     <p> 1993 – 2026<br/>
                         Förderer: Bundesministerium für Bildung und Forschung (BMBF)<br/></p>
@@ -160,7 +152,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="well">
+                <div class="well vife_project">
                     <h3>ZenMEM</h3>
                     <p> 2014 – 2017<br/>
                         Förderer: Bundesministerium für Bildung und Forschung (BMBF)<br/></p>
@@ -172,8 +164,17 @@
     
     
     </div><!-- /.container -->
-  
     
+      <nav class="navbar navbar-inverse bottomNav">
+          <div class="container">
+              <div id="navbar" class="collapse navbar-collapse">
+                  <ul class="nav navbar-nav">
+                      <li><a href="#">Kontakt | Impressum</a></li>
+                  </ul>
+              </div><!--/.nav-collapse -->
+          </div>
+      </nav>
+      
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
