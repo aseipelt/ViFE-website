@@ -60,9 +60,7 @@
 
 a.vife_more {
     display: block;
-    color: #666666;
-    margin-top: 30px; 
-    /*background-image: url('img/beethoven.png');*/
+    color: #337ab7;
     background-position: center center;
     background-repeat: no-repeat;
     height: 30px;
@@ -72,7 +70,6 @@ a.vife_werkzeuge {
     display: block;
     color: #666666;
     margin-top: 10px; 
-    /*background-image: url('img/beethoven.png');*/
     background-position: center center;
     background-repeat: no-repeat;
     height: 30px;
@@ -104,12 +101,39 @@ a.vife_werkzeuge2 {
 */
 
 .well.vife_project {
-    height: 300px;
+    height: 260px;
 }
 
-.well.vife_project img {
+.well.tool {
+    min-height: 250px;
+}
+
+.well.vife_project h3, .well.tool h3 {
+    margin-top: 0;
+}
+
+.well.vife_project .imgBox, .well.tool .imgBox {
+    margin: 10px auto;
+    text-align: center;
+}
+
+.well.tool .imgBox {
+    display: none;
+}
+
+.well.vife_project img, .well.tool img {
     max-width: 280px;
     max-height: 100px;
+}
+
+.well.tool.external_tool {
+    background: repeating-linear-gradient(
+        150deg,
+        #f5f5f5,
+        #f5f5f5 20px,
+        #f9f9f9 20px,
+        #f9f9f9 40px
+      );
 }
 
 p.lead {
