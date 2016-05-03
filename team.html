@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-        <title>Bootstrap 101 Template</title>
+        <title>Virtueller Forschungsverbund Edirom</title>
         
         <!-- Bootstrap -->
         <link href="css/bootstrap.min.css" rel="stylesheet" />
@@ -20,24 +20,15 @@
     </head>
   <body>
   
-  <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">Kontakt</a></li>
-            <li><a href="#">DE | EN</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </nav>
-
+    <div class="headerBar"></div>
+    <div class="essLink">
+      <a href="http://ess.uni-paderborn.de" target="_blank"><img src="img/ESS2016_logo-2_CS6-01.png" width="180"/></a>
+    </div>
+    
     <div class="container" style="margin-top: 50px;">
-
       <div class="starter-template">
         <h1>ViFE – Virtueller Forschungsverbund Edirom</h1>
       </div>
-    
         <ul class="nav nav-pills vife_icons">
       <li role="presentation">
       <a class="navbar-brand vife_icon" href="index.html">
@@ -51,27 +42,30 @@
         <span class="vife_iconText">Team</span>
       </a>
       </li>
-      <li role="presentation"><a class="navbar-brand vife_icon" href="#">
-        <span class="glyphicon glyphicon-th" aria-hidden="true"></span>
-        <span class="vife_iconText">Projekte</span>
-      </a></li>
-      <li role="presentation"><a class="navbar-brand vife_icon" href="#">
-        <span class="glyphicon glyphicon-book" aria-hidden="true"></span>
-        <span class="vife_iconText">Publikationen</span>
-      </a></li>
-      <li role="presentation"><a class="navbar-brand vife_icon" href="#">
-        <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
-        <span class="vife_iconText">Termine</span>
-      </a></li>
-      <li role="presentation"><a class="navbar-brand vife_icon" href="#">
-        <span class="glyphicon glyphicon-wrench" aria-hidden="true"></span>
-        <span class="vife_iconText">Werkzeuge</span>
-      </a></li>
-            <li role="presentation"><a class="navbar-brand vife_icon" href="#">
+      <li role="presentation"><a class="navbar-brand vife_icon" href="projects.html">
+                <span class="glyphicon glyphicon-th" aria-hidden="true"></span>
+                <span class="vife_iconText">Projekte</span>
+            </a></li>
+      <li role="presentation"><a class="navbar-brand vife_icon" href="publikationen.html">
+                <span class="glyphicon glyphicon-book" aria-hidden="true"></span>
+                <span class="vife_iconText">Publikationen</span>
+            </a>
+      </li>
+            <li role="presentation"><a class="navbar-brand vife_icon" href="termine.html">
+                <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
+                <span class="vife_iconText">Termine</span>
+            </a>
+            </li>
+       <li role="presentation"><a class="navbar-brand vife_icon" href="werkzeuge.html">
+                <span class="glyphicon glyphicon-wrench" aria-hidden="true"></span>
+                <span class="vife_iconText">Werkzeuge</span>
+            </a>
+            </li>
+       <!--<li role="presentation"><a class="navbar-brand vife_icon" href="concepts.html">
                 <span class="glyphicon glyphicon-blackboard" aria-hidden="true"></span>
                 <span class="vife_iconText">Konzepte &amp; Workflows</span>
-            </a></li>
-
+            </a>
+            </li>-->
     </ul>
     
     <br/>
@@ -79,13 +73,13 @@
     <div class="row" style="margin-top: 80px;">
         <div class="col-md-4">
             <div class="vife_teamMember">
-                
+                <img src="img/team_niko.jpg" height="220"/>
             </div>
             <h2>Nikolaos Beer</h2>
             <p>
                 <span class="vife_contact_icon glyphicon glyphicon-earphone"></span>+49 5231 975-677<br/>
                 <span class="vife_contact_icon glyphicon glyphicon-envelope"></span>nikolaos.beer@uni-paderborn.de<br/>
-                <span class="vife_contact_icon glyphicon glyphicon-globe"></span>DARIAH, Verbundstelle Musikedition
+                <span class="vife_contact_icon glyphicon glyphicon-globe"></span><a href="http://www.max-reger-institut.de/de/reger-werkausgabe" target="_blank">Reger-Werkausgabe</a>, <a href="http://www.opera.adwmainz.de/informationen.html" target="_blank">OPERA</a>, <a href="https://de.dariah.eu" target="_blank">DARIAH-DE</a>
             </p>
             <div class="vife_skills">
                 
@@ -93,13 +87,13 @@
         </div>
         <div class="col-md-4">
             <div class="vife_teamMember">
-                
+                <img src="img/team_benjamin.jpg" height="220"/>
             </div>
             <h2>Benjamin Wolff Bohl</h2>
             <p>
                 <span class="vife_contact_icon glyphicon glyphicon-earphone"></span>+49 5231 975-874<br/>
                 <span class="vife_contact_icon glyphicon glyphicon-envelope"></span>bohl@edirom.de<br/>
-                <span class="vife_contact_icon glyphicon glyphicon-globe"></span>ZenMEM, Verbundstelle Musikedition, Detmolder Hoftheater
+                <span class="vife_contact_icon glyphicon glyphicon-globe"></span><a href="http://hoftheater-detmold.de" target="_blank">Detmolder Hoftheater</a>, Edirom, <a href="http://www.freischuetz-digital.de/index.html" target="_blank">FreiDi</a>, <a href="http://www.zenmem.de" target="_blank">ZenMEM</a>
             </p>
             <div class="vife_skills">
                 
@@ -107,27 +101,29 @@
         </div>
         <div class="col-md-4">
             <div class="vife_teamMember">
+                <img src="img/team_irmlind.jpg" height="220"/>
             </div>
             <h2>Irmlind Capelle</h2>
             <p>
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt 
-        ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo 
-        dolores et ea rebum.
+                <span class="vife_contact_icon glyphicon glyphicon-earphone"></span>+49 5231975-665<br/>
+                <span class="vife_contact_icon glyphicon glyphicon-envelope"></span>irmlind.capelle@upb.de<br/>
+                <span class="vife_contact_icon glyphicon glyphicon-globe"></span><a href="http://hoftheater-detmold.de" target="_blank">Detmolder Hoftheater</a>
             </p>
             <div class="vife_skills">
                 
             </div>
         </div>
     </div>
-        <div class="row" style="margin-top: 80px;">
+    <div class="row" style="margin-top: 80px;">
         <div class="col-md-4">
             <div class="vife_teamMember">
+                <img src="img/team_maja.jpg" height="220"/>
             </div>
             <h2>Maja Hartwig</h2>
             <p>
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt 
-        ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo 
-        dolores et ea rebum.
+                <span class="vife_contact_icon glyphicon glyphicon-earphone"></span>+49 5231975-669<br/>
+                <span class="vife_contact_icon glyphicon glyphicon-envelope"></span>hartwig@beethovens-werkstatt.de<br/>
+                <span class="vife_contact_icon glyphicon glyphicon-globe"></span><a href="http://beethovens-werkstatt.de" target="_blank">Beethovens Werkstatt</a>, <a href="https://de.dariah.eu" target="_blank">DARIAH-DE</a>, <a href="http://music-encoding.org" target="_blank">MEI</a>
             </p>
             <div class="vife_skills">
                 
@@ -135,12 +131,13 @@
         </div>
         <div class="col-md-4">
             <div class="vife_teamMember">
+                <img src="img/team_kristin.jpg" height="220"/>
             </div>
             <h2>Kristin Herold</h2>
             <p>
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt 
-        ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo 
-        dolores et ea rebum.
+                <span class="vife_contact_icon glyphicon glyphicon-earphone"></span>+49 5231975-669<br/>
+                <span class="vife_contact_icon glyphicon glyphicon-envelope"></span>herold@edirom.de<br/>
+                <span class="vife_contact_icon glyphicon glyphicon-globe"></span><a href="https://de.dariah.eu" target="_blank">DARIAH-DE</a>, <a href="http://hoftheater-detmold.de" target="_blank">Detmolder Hoftheater</a>, <a href="https://www.udk-berlin.de/musikwissenschaft/sarti" target="_blank">Sarti</a>
             </p>
             <div class="vife_skills">
                 
@@ -148,23 +145,115 @@
         </div>
         <div class="col-md-4">
             <div class="vife_teamMember">
+                <img src="img/team_joachimI.jpg" height="220"/>
             </div>
-            <h2>Johannes Kepper</h2>
+            <h2>Joachim Iffland</h2>
             <p>
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt 
-        ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo 
-        dolores et ea rebum.
+                <span class="vife_contact_icon glyphicon glyphicon-earphone"></span>+49 5231975-677<br/>
+                <span class="vife_contact_icon glyphicon glyphicon-envelope"></span>Joachim.Iffland@uni-paderborn.de<br/>
+                <span class="vife_contact_icon glyphicon glyphicon-globe"></span><a href="http://www.freischuetz-digital.de" target="_blank">Freischütz Digital</a>
             </p>
             <div class="vife_skills">
                 
             </div>
         </div>
     </div>
+    <div class="row" style="margin-top: 80px;">
+            <div class="col-md-4">
+                <div class="vife_teamMember">
+                    <img src="img/team_johannes.jpg" height="220"/>
+                </div>
+                <h2>Johannes Kepper</h2>
+                <p>
+                    <span class="vife_contact_icon glyphicon glyphicon-earphone"></span>+49 5231975-669<br/>
+                    <span class="vife_contact_icon glyphicon glyphicon-envelope"></span>kepper@edirom.de<br/>
+                    <span class="vife_contact_icon glyphicon glyphicon-globe"></span><a href="http://beethovens-werkstatt.de" target="_blank">Beethovens Werkstatt</a>, Edirom, <a href="http://www.freischuetz-digital.de/index.html" target="_blank">FreiDi</a>
+                </p>
+                <div class="vife_skills"></div>
+            </div>
+        
+            <div class="col-md-4">
+                <div class="vife_teamMember">
+                    <img src="img/team_kristina.jpg" height="220"/>
+                </div>
+                <h2>Kristina Richts</h2>
+                <p>
+                    <span class="vife_contact_icon glyphicon glyphicon-earphone"></span>+49 5231975-665<br/>
+                    <span class="vife_contact_icon glyphicon glyphicon-envelope"></span>krichts@mail.uni-paderborn.de<br/>
+                    <span class="vife_contact_icon glyphicon glyphicon-globe"></span><a href="https://de.dariah.eu" target="_blank">DARIAH-DE</a>, <a href="http://hoftheater-detmold.de" target="_blank">Detmolder Hoftheater</a>, <a href="http://music-encoding.org" target="_blank">MEI</a>
+                </p>
+                <div class="vife_skills"></div>
+            </div>
+        
+           <div class="col-md-4">
+            <div class="vife_teamMember">
+                <img src="img/team_daniel.jpg" height="220"/>
+            </div>
+            <h2>Daniel Röwenstrunk</h2>
+            <p>
+                <span class="vife_contact_icon glyphicon glyphicon-earphone"></span>+49 5231975-876<br/>
+                <span class="vife_contact_icon glyphicon glyphicon-envelope"></span>roewenstrunk@edirom.de<br/>
+                <span class="vife_contact_icon glyphicon glyphicon-globe"></span>Edirom, <a href="http://www.freischuetz-digital.de/index.html" target="_blank">FreiDi</a>, <a href="http://zenmem.de" target="_blank">ZenMEM</a>
+            </p>
+            <div class="vife_skills"></div>
+        </div>
+    </div>
+        
+        
+        <div class="row" style="margin-top: 80px;">
+            <div class="col-md-4">
+                <div class="vife_teamMember">
+                    <img src="img/team_elena.jpg" height="220"/>
+                </div>
+                <h2>Elena Schilke</h2>
+                <p>
+                    <span class="vife_contact_icon glyphicon glyphicon-earphone"></span>+49 5231975-677<br/>
+                    <span class="vife_contact_icon glyphicon glyphicon-envelope"></span>eschilke@mail.uni-paderborn.de<br/>
+                    <span class="vife_contact_icon glyphicon glyphicon-globe"></span><a href="http://hoftheater-detmold.de" target="_blank">Detmolder Hoftheater</a>, <a href="http://www.freischuetz-digital.de" target="_blank">Freischütz Digital</a>
+                </p>
+                <div class="vife_skills"></div>
+            </div>
+            <div class="col-md-4">
+                <div class="vife_teamMember" >
+                    <img src="img/team_peter.jpg" height="220"/>
+                </div>
+                <h2>Peter Stadler</h2>
+                <p>
+                    <span class="vife_contact_icon glyphicon glyphicon-earphone"></span>+49 5231975-676<br/>
+                    <span class="vife_contact_icon glyphicon glyphicon-envelope"></span>stadler@weber-gesamtausgabe.de<br/>
+                    <span class="vife_contact_icon glyphicon glyphicon-globe"></span><a href="http://www.weber-gesamtausgabe.de/de/Index" target="_blank">Weber-Gesamtausgabe</a>
+                </p>
+                <div class="vife_skills"></div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="vife_teamMember">
+                    <img src="img/team_joachimV.jpg" height="220"/>
+                </div>
+                <h2>Joachim Veit</h2>
+                <p>
+                    <span class="vife_contact_icon glyphicon glyphicon-earphone"></span>+49 5231975-663<br/>
+                    <span class="vife_contact_icon glyphicon glyphicon-envelope"></span>veit@weber-gesamtausgabe.de<br/>
+                    <span class="vife_contact_icon glyphicon glyphicon-globe"></span><a href="http://www.weber-gesamtausgabe.de/de/Index" target="_blank">Weber-Gesamtausgabe</a>
+                </p>
+                <div class="vife_skills"></div>
+        </div>
+        </div>   
+        
+      
+    </div> <!-- /.container --> <br/>
     
     
-    </div><!-- /.container -->
-  
-    
+      <nav class="navbar navbar-inverse bottomNav">
+          <div class="container">
+              <div id="navbar" class="collapse navbar-collapse">
+                  <ul class="nav navbar-nav">
+                      <li><a href="impressum.html">Kontakt | Impressum</a></li>
+                  </ul>
+              </div><!--/.nav-collapse -->
+          </div>
+      </nav>
+      
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
