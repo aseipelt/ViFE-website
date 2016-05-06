@@ -1,5 +1,5 @@
 .headerBar {
-    height: 15px;
+    height: 40px;
     position: fixed;
     top: 0;
     left: 0;
@@ -8,6 +8,14 @@
     background-image: -webkit-linear-gradient(top,#135a97,#337ab7); /* Chrome 10-25, iOS 5+, Safari 5.1+ */
     background-image:         linear-gradient(to bottom,#135a97,#337ab7); /* Chrome 26, Firefox 16+, IE 10+, Opera */
     z-index: 10;
+    color: #eeeeee;
+    padding: 10px 30px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.headerBar a, headerBar a:visited, headerBar a:hover {
+    color: #eeeeee;
 }
 
 .essLink {
